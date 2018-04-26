@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.229.1",
+    "bluebird": "^3.5.1",
+    "graphql": "^0.13.2",
+    "somata-lambda": "0.0.1"
+  }
+}
