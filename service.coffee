@@ -26,7 +26,7 @@ class User
         @email = "#{randomString()}@#{randomString()}.#{randomString(3)}"
 
     age: ->
-        client.remotePromise 'json-party-numbers', 'randomInt', 100
+        client.remotePromise 'json-party-engine', 'randomInt', 100
 
 graphql_root = {
     user: ->
